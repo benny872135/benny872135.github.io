@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./resume_style.css">
+    <script src="./resume.js"></script>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <div  id="title">
+        <h1>My Resume Page 履歷介紹</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <nav class="col-sm-3 col-4" id="myScrollspy">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#section1">基本資料</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#section2">工作經歷</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#section3">專長技能</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">歷年功業</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#section41">作品集錦</a>
+                            <a class="dropdown-item" href="#section42">個人自傳</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-sm-9 col-8">
+                <article id="section1">
+                    <h3>基本資料</h3>
+                    <table>
+                        <tr>
+                            <th>姓　　名：</th>
+                            <td>Benny Liao</td>
+                        </tr>
+                        <tr>
+                            <th>連絡電話：</th>
+                            <td>0933815128</td>
+                        </tr>
+                        <tr>
+                            <th>Mail add：</th>
+                            <td>benny5379@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>通訊地址：</th>
+                            <td>新北市三重區</td>
+                        </tr>
+                        <tr>
+                            <th>學　　歷：</th>
+                            <td>台北商業技術學院應用商學系</td>
+                        </tr>
+                    </table>
+                </article>
+                <br>
+                <br>
+                <article id="section2">
+                    <h3>工作經歷</h3>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>公司名稱</th>
+                                <th>工作職稱</th>
+                                <th>工作期間</th>
+                                <th>工作內容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>台灣書店股份有限公司</th>
+                                <td>倉庫管理</td>
+                                <td>1978/07 ~ 1981/08</td>
+                                <td>書籍管理, 倉庫出貨盤點, 書籍包裝寄送等 </td>
+                            </tr><tr>
+                                <td>國際特貿股份有限公司</td>
+                                <td>企劃副理</td>
+                                <td>1985/07 ~ 1986/12</td>
+                                <td>廣告AE, 出版物編輯排版, 網頁排版, 美術編輯等</td>
+                            </tr>
+                            <tr>
+                                <td>聯慷資訊科技股份有限公司</td>
+                                <td>產品經理</td>
+                                <td>1987/03 ~ 2020/06</td>
+                                <td>產品經營管理, 經銷商管理, 專案管理, 標案規格編寫, 業務銷售, 文件管理等</td>
+                            </tr>
+                            <tr>
+                                <td>英特拉金融科技股份有限公司</td>
+                                <td>專案經理</td>
+                                <td>2020/11 ~ 2022/01</td>
+                                <td>專案管理, 標案執行, 特約店招商, 客戶簡報, 文件管理等</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <br>
+                <br>
+                <article id="section3">
+                    <h3>專長技能</h3>
+                    <ul class="list-group list-group-flush">  
+                        <li class="list-group-item">辦公室應用軟體<br>
+                            MS Office系列, Project, Visio等
+                        </li>
+                        <li class="list-group-item">影像處理軟體<br>
+                            Photoshop, illustrator, Coreldraw
+                        </li>
+                        <li class="list-group-item">網頁設計應用<br>
+                            Html, CSS, Bootstrap, PHP, Javascript
+                        </li>
+                        <li class="list-group-item">IOT程式設計應用<br>
+                            C 語言, Python相關應用, Tensorflow, Machine Learning
+                        </li>
+                    </ul>
+                </article>
+                <br>
+                <br>
+                <article id="section41">
+                    <h3>作品集錦</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1RsBtrUuLSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iTGAf6qEfJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<video controls>
+                        <source src="https://www.youtube.com/embed/1RsBtrUuLSY">
+                    </video>>-->
+                </article>
+                <br>
+                <br>
+                <article id="section42">
+                    <h3>自傳</h3>
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        翻閱自傳
+                    </button>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">                            
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h1 class="modal-title">自傳</h1>
+                                    <button type="button" class="close" data-dismiss="modal"></button>
+                                </div>
+                                
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <h3>我的自傳</h3>
+                                    <p>I am gentle and kind-hearted, serious and responsible in doing things, and good at communicating and coordinating in teamwork. All of these are thanks to my parents for their daily teachings. There are eight members in my family. My father is currently retired and my mother is a housewife. The family gets along harmoniously. Since childhood, my parents have used strict education methods to allow me to grow up in an environment of self-learning, thus creating an independent attitude towards life.</p>
+
+                                    <p>After completing my studies, I enlisted in the army and served as a financial non-commissioned officer. During this period, I deeply realized the importance of learning, so I asked myself to accept new knowledge all the time, in order to optimize the use of resources in teamwork. After retiring from the army, my first job was an advertising AE. During this period, I completed a special investment promotion project for Friends of the Times and won the best AE, which allowed me to achieve considerable growth in the field of advertising and planning; I studied graphic design in my spare time During this period, in addition to laying down my expertise in business and American editorial work, I also cooperated with my personal career planning. I hope that I can play more in management and have a more complete corporate management background in the future.</p>
+                                        
+                                    <p>With the end of the first job, I entered the technology industry to start the second work process. I have worked in this job for 22+ years, during which I have experienced many different roles, including Product Management, Marketing Management, Channel Management, Sales Management, Account Management and Project Management, etc., roughly dividing this journey into three parts stage:</p>
+                                        <p>BENNY 1.0: Refers to the first 10-year stage. Cooperate with the company's new product introduction and be responsible for the product management and marketing management related to the product. After the product officially enters the market and is exported, assist the internal business to market the product. But because the business has too many products to sell, the company added the role of product direct sales for me to experience. Therefore, three roles must be played at the same time. For the most exciting 10 years in the company.</p>
+                                        <p>BENNY 2.0: refers to the second 10-year stage. At this time, the company represents more products, and the performance and sales figures of internal business personnel in this product have been declining. Therefore, the company hopes that my work allocation will be 30% product management and 20% Channel Sales Management and 50% Product Sales Management. And Marketing Management is handed over to newcomers. So I have to look at both the total sales figures for the product and the individual sales figures for that product. This stage is called the stage of racing against numbers.</p>
+                                        <p>BENNY 3.0: Refers to the recent 2-3 years. At this time, the products I am responsible for have entered the mature stage of the market, so the company also assigned me to transform into 100% Sales Management. For this reason, I also paid for CCNA courses at my own expense. With the adjustment and change of the company's business strategy, this work process has ended.</p>
+                                        
+                                        <p>Regardless of the work field or the private field, I always stick to the work I am interested in. Once I decide to participate in any affairs, I will definitely go all out. From the experience in business and planning, the operation and management of products are relatively familiar. So product and project management is something I am more interested in doing. The past work performance is based on the attitude of expecting to do our best for each job, in order to be able to work hard towards the goal of group success and make more contributions to the company. I also hope that in the future, I can drive the growth of the enterprise and do my part well.</p>
+                                </div>
+                                
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <br>
+            <br><br>
+            <br><br>
+            <br><br>
+           
+            <br>
+        </div>
+    </div>
+    
+</body>
+</html>
